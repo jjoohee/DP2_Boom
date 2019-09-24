@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>illuminati</title>
+	<style type="text/css">
+		#mybody{background: black;}
+		#warp{ width: 1000px; margin:auto;}
+		#bil{width: 300px; margin: auto; position: absolute; margin-left: 350px; margin-top: 50px;}
+		#bbill{width: 350px; margin: auto; position: absolute; margin-left: 328px; margin-top: 20px; opacity: 0;}
+		#ill{opacity: 0; position: absolute; width: 380px;}
+		#catt{opacity: 0; position: absolute; width: 300px; position: absolute; margin-left: 600px; margin-top: 100px;}
+		#color{opacity: 0; position: absolute; width: 250px; position: absolute; margin-left: 370px; margin-top: 300px;}
+		#pil{opacity: 0; position: absolute; width: 200px; position: absolute; margin-left: 800px;}
+		#ten{opacity: 0; position: absolute; width: 200px; position: absolute;  margin-left: 800px; margin-top: 350px;}
+	</style>
+</head>
+<body id="mybody">
+	<section id="warp">
+	<img src="bill2.gif" id="bbill">
+	<img src="illumi.gif" id="ill">
+	<img src="cat.gif" id="catt">
+	<img src="colorful.gif" id="color">
+	<img src="plink.gif" id="pil">
+	<img src="tenor.gif" id="ten">
+	<img src="bill.gif" id="bil">
+	<audio id="music" loop>
+	  <source src="CareAboutYou.mp3" type="audio/mpeg">
+	</audio>
+</section>
+	<script type="text/javascript">
+		bil.onclick = function(){
+			bbill.style.opacity = "1";
+			bil.style.opacity = "0";
+			ill.style.opacity = "1";
+			color.style.opacity = "1";
+			catt.style.opacity = "1";
+			pil.style.opacity = "1";
+			ten.style.opacity = "1";
+			music.play();
+
+		}
+
+	</script>
+
+</body>
+</html>
